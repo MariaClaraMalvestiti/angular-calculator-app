@@ -46,4 +46,5 @@ This is a simple calculator built with **Angular** and **Bootstrap**, developed 
 
 🙋‍♀️ Author
 María Clara
+
 Feel free to leave a ⭐ if you like it!
