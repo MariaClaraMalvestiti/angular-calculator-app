@@ -21,10 +21,6 @@ This is a simple calculator built with **Angular** and **Bootstrap**, developed 
 - [Bootstrap 5](https://getbootstrap.com/)
 - HTML & CSS
 
-## 📸 Screenshot
-
-> (You can add a screenshot here later, like: `![screenshot](./screenshot.png)`)
-
 ## 📦 How to Run the Project
 
 1. Clone the repository:
