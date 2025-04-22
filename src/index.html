@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="utf-8">
   <title>CalculatorApp</title>
@@ -8,6 +8,18 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  <div class="mt-5 mx-4">
+    <button class="btn btn-primary" onclick="toggleTheme()">Cambiar tema</button>
+  </div>
+
+  <script>
+    function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute("data-bs-theme");
+    html.setAttribute("data-bs-theme", currentTheme === "dark" ? "light" : "dark");
+   }
+  </script>
+
   <app-root></app-root>
 </body>
 </html>
