@@ -1,59 +1,49 @@
-# CalculatorApp
+# 🧮 Angular Calculator App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This is a simple calculator built with **Angular** and **Bootstrap**, developed as a learning project. It allows basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- Input fields for two operands
+- Buttons to perform:
+  - ➕ Add
+  - ➖ Subtract
+  - ✖️ Multiply
+  - ➗ Divide
+- Clear button to reset all values
+- Result display
+- Responsive UI with Bootstrap
+- Dark and Light mode toggle 🌙☀️
 
-```bash
-ng serve
-```
+## 🛠 Technologies Used
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- [Angular](https://angular.io/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- HTML & CSS
 
-## Code scaffolding
+## 📸 Screenshot
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+> (You can add a screenshot here later, like: `![screenshot](./screenshot.png)`)
 
-```bash
-ng generate component component-name
-```
+## 📦 How to Run the Project
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tu-usuario/angular-calculator-app.git
+   
+2. Navigate to the project folder:
+   ```bash
+   cd angular-calculator-app
 
-```bash
-ng generate --help
-```
+3. Install dependecies: 
+   ```bash
+   npm install
 
-## Building
+4. Run the app:
+   ```bash
+   ng serve -o
 
-To build the project run:
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+🙋‍♀️ Author
+María Clara
+Feel free to leave a ⭐ if you like it!
